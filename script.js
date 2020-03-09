@@ -21,84 +21,84 @@ $(document).ready(() =>{
 
   $('.homeDiv').show();
   $('.aboutDiv').show();
-  $('.projectsDiv').hide();
-  $('.contactDiv').hide();
-  $('.resumeDiv').hide();
+  // $('.projectsDiv').hide();
+  // $('.contactDiv').hide();
+  // $('.resumeDiv').hide();
   
 
 
 
   
 
-  $('.nav-item-about').on("click", function(){
-  $('.logo').show();
-      $('.aboutDiv').show();
-      $('.homeDiv').hide();
-      $('.projectsDiv').hide();
-      $('.contactDiv').hide();
-      $('.resumeDiv').hide();
+  // $('.nav-item-about').on("click", function(){
+  // $('.logo').show();
+  //     $('.aboutDiv').show();
+  //     $('.homeDiv').hide();
+  //     $('.projectsDiv').hide();
+  //     $('.contactDiv').hide();
+  //     $('.resumeDiv').hide();
       
       
      
-      console.log('about nav works');
-  });
+  //     console.log('about nav works');
+  // });
 
 
 
-  $('.nav-item-projects').on("click", function(){
+//   $('.nav-item-projects').on("click", function(){
 
-    $('.projectsDiv').show();
-    $('.homeDiv').hide();
-    $('.aboutDiv').hide();
-    $('.contactDiv').hide();
-    $('.resumeDiv').hide();
+//     $('.projectsDiv').show();
+//     $('.homeDiv').hide();
+//     $('.aboutDiv').hide();
+//     $('.contactDiv').hide();
+//     $('.resumeDiv').hide();
 
     
     
    
-    console.log('project nav works');
-});
+//     console.log('project nav works');
+// });
 
-$('.nav-item-contact').on("click", function(){
+// $('.nav-item-contact').on("click", function(){
 
-  $('.contactDiv').show();
-  $('.homeDiv').hide();
-  $('.aboutDiv').hide();
-  $('.resumeDiv').hide();
-  $('.projectsDiv').hide();
-
-  
-  
- 
-  console.log('contact nav works');
-});
-
-$('.nav-item-resume').on("click", function(){
-
-  $('.resumeDiv').show();
-  $('.homeDiv').hide();
-  $('.aboutDiv').hide();
-  $('.projectsDiv').hide();
-  $('.contactDiv').hide();
+//   $('.contactDiv').show();
+//   $('.homeDiv').hide();
+//   $('.aboutDiv').hide();
+//   $('.resumeDiv').hide();
+//   $('.projectsDiv').hide();
 
   
+  
  
-  console.log('resume nav works');
-});
+//   console.log('contact nav works');
+// });
+
+// $('.nav-item-resume').on("click", function(){
+
+//   $('.resumeDiv').show();
+//   $('.homeDiv').hide();
+//   $('.aboutDiv').hide();
+//   $('.projectsDiv').hide();
+//   $('.contactDiv').hide();
+
+  
+ 
+//   console.log('resume nav works');
+// });
 
 
-$('.logo').on("click", function(){
+// $('.logo').on("click", function(){
 
-  $('.header').show();
-  $('.homeDiv').show();
-  $('.aboutDiv').hide();
-  $('.projectsDiv').hide();
-  $('.contactDiv').hide();
-  $('.resumeDiv').hide();
+//   $('.header').show();
+//   $('.homeDiv').show();
+//   $('.aboutDiv').hide();
+//   $('.projectsDiv').hide();
+//   $('.contactDiv').hide();
+//   $('.resumeDiv').hide();
 
  
-  console.log('logo home nav works');
-});
+//   console.log('logo home nav works');
+// });
 // End Navbar functionality
 
 // End document.ready function
