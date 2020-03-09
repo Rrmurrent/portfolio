@@ -132,9 +132,9 @@ html {
 }
 .smilingBubs{
   display: flex;
-  height: 25%;
-  width: 70%;
-  margin-left: 20%;
+  height: 50%;
+  width: 90%;
+  margin-left: 10%;
   background-color:white;
   border: solid 8px black;
 }
