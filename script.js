@@ -29,7 +29,7 @@ $(document).ready(() =>{
   
 
   $('.nav-item-about').on("click", function(){
-
+  $('.logo').show();
       $('.aboutDiv').show();
       $('.homeDiv').hide();
       $('.projectsDiv').hide();
