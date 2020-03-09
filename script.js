@@ -25,6 +25,9 @@ $(document).ready(() =>{
   
   // Navbar functionality
 
+
+  
+
   $('.nav-item-about').on("click", function(){
 
       $('.aboutDiv').show();
