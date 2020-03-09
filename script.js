@@ -1,13 +1,6 @@
 
 $(document).ready(() =>{
 
-  $('.homeDiv').show();
-  $('.aboutDiv').hide();
-  $('.projectsDiv').hide();
-  $('.contactDiv').hide();
-  $('.resumeDiv').hide();
-  
-
   const nav = document.querySelector('#main');
   let topOfNav = nav.offsetTop;
   
@@ -24,6 +17,15 @@ $(document).ready(() =>{
   window.addEventListener('scroll', fixNav);
   
   // Navbar functionality
+
+
+  $('.homeDiv').show();
+  $('.aboutDiv').show();
+  $('.projectsDiv').hide();
+  $('.contactDiv').hide();
+  $('.resumeDiv').hide();
+  
+
 
 
   
